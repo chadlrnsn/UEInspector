@@ -1,5 +1,9 @@
 # UEInspector
 
+> [!IMPORTANT] \
+> I'm just reborning UEInspector that was made by https://github.com/DKingAlpha
+> Original repo: https://github.com/DKingAlpha/UEInspector 
+
 **UNSTABLE DEVELOPMENT PROGRESS**
 
 ## Features

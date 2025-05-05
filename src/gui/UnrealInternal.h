@@ -6,33 +6,6 @@
 #include <assert.h>
 #include "../mem/String.hpp"
 
-// Forward declarations for Unreal Engine types
-class UProperty;
-class UFunction;
-class UObjectBase;
-class UObjectBaseUtility;
-class UNumericProperty;
-class UInt8Property;
-class UInt16Property;
-class UIntProperty;
-class UInt64Property;
-class UUInt16Property;
-class UUInt32Property;
-class UUInt64Property;
-class UFloatProperty;
-class UDoubleProperty;
-class UBoolProperty;
-class UObjectProperty;
-class UByteProperty;
-class UStructProperty;
-class UArrayProperty;
-class UNameProperty;
-class UStrProperty;
-class UEnumProperty;
-class FString;
-class FName;
-class FUObjectArray;
-
 template <typename T, typename T2> T DCast(T2 In) {
     if (In && ((UObjectBaseUtility*)In)->IsA<std::remove_pointer_t<T>>()) {
         return (T)In;
